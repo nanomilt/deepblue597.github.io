@@ -25,10 +25,10 @@ const ContactCode = () => {
         tag: <a>production</a>
       </p>
       <p className={styles.line}>
-        <span>kostas</span>&#58;
+        <span>Iasonas</span>&#58;
       </p>
       <p className={styles.line}>
-        &nbsp;&nbsp;&nbsp;&#8212; <span>socials</span>&#58;
+        &nbsp;&nbsp;&nbsp;&#8212; <span>Socials</span>&#58;
       </p>
       {contactItems.slice(0, 8).map((item, index) => (
         <p className={styles.line} key={index}>
