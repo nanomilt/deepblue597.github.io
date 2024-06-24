@@ -24,26 +24,21 @@ export default function HomePage() {
               <button className={styles.outlined}>Contact Me</button>
             </Link>
           </div>
-          {/* <Illustration className={styles.illustration} /> */}
+          <div className={styles.right}>
+            <div className={styles.picture_boader}>
+              <Image
+                className={styles.picture}
+                src="/me.png"
+                width={300}
+                height={300}
+                alt="Iasonas' Picture"
+              />
+            </div>
+          </div>
         </div>
       </div>
+      {/* <Illustration className={styles.illustration} /> */}
     </>
-    //       /* <Illustration className={styles.illustration} /> */
-    //       <div className={styles.right}>
-    //         <div className={styles.picture_boader}>
-    //           <Image
-    //             className={styles.picture}
-    //             src="/me.jpeg"
-    //             width={300}
-    //             height={300}
-    //             alt="Kostas' Picture"
-    //           />
-    //         </div>
-
-    //       </div>
-    //     </div>
-    //   </div>
-    // </>
   );
 }
 
