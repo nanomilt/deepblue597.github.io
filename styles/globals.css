@@ -30,31 +30,31 @@
   background: rgba(67, 153, 52, 0.25);
 }
 
-.redux {
+.Angular {
   border: 0.1rem solid rgb(118, 74, 188);
 }
-.redux:hover {
+.Angular:hover {
   background: rgba(118, 74, 188, 0.25);
 }
 
-.razorpay {
+.Frontend {
   border: 0.1rem solid rgb(82, 143, 240);
 }
-.razorpay:hover {
+.Frontend:hover {
   background: rgba(82, 143, 240, 0.25);
 }
 
-.material-ui {
+.Docker {
   border: 0.1rem solid rgb(25, 118, 210);
 }
-.material-ui:hover {
+.Docker:hover {
   background: rgba(25, 118, 210, 0.25);
 }
 
-.bulma {
+.Javascript {
   border: 0.1rem solid rgb(0, 209, 178);
 }
-.bulma:hover {
+.Javascript:hover {
   background: rgb(0, 209, 178, 0.25);
 }
 
