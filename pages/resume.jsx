@@ -1,16 +1,28 @@
 import styles from "../styles/ResumePage.module.css";
 import { pdfjs, Document, Page } from "react-pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
-const myResume = "./Resume.pdf";
+const myResume = "iasonas_kakandris_cv.pdf";
 
 const ResumePage = () => {
   return (
-    <>
-      <iframe
-        src="https://drive.google.com/file/d/1W00s_CV-3JZUeMpyp6jGVcWRggazIm_6/preview"
-        width="893.8799999999999"
-        height="1264.68"></iframe>
-    </>
+    <center>
+      <h3>
+        Resume (
+        <a
+          href={myResume}
+          className={styles.underline}
+          download="iasonas_kakandris_cv.pdf">
+          Download
+        </a>
+        )
+      </h3>
+      <br />
+      <div className={styles.pdfContainer}>
+        <Document file={myResume}>
+          <Page pageIndex={0} scale={1.5} renderMode="svg" />
+        </Document>
+      </div>
+    </center>
   );
 };
 

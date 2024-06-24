@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Spacecraft Operations Frontend",
+    "image": "https://i.imgur.com/iunjKAR.jpeg",
+    "description": "Developed and maintained the user interface of the space system in Angular and built the necessary tools to receive and transmit data from and to the satellite",
+    "tags": ["Angular", "Frontend", "Docker"],
+    "source_code": "https://gitlab.com/acubesat/ops/frontend-software"
+  },
+  {
+    "id": 2,
+    "name": "Track the space station in 3d",
+    "image": "https://i.imgur.com/R0YPPY2.jpeg",
+    "description": "This project aims to track the  live position of ISS in 3D, using open source libraries such as WorldWind and Satelite.js.",
+    "tags": ["Javascript"],
+    "source_code": "https://gitlab.com/the-operators/track-the-space-station-in-3d"
+  }
+]

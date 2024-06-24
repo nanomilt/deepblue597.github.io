@@ -1,17 +1,19 @@
-import Image from 'next/image';
-import styles from '../styles/ProjectCard.module.css';
+import Image from "next/image";
+import styles from "../styles/ProjectCard.module.css";
 
 const ProjectCard = ({ project }) => {
-  const lowResImageUrl = project.image.replace(/(\.[a-z]+)$/, 'm$1');
+  const lowResImageUrl = project.image.replace(/(\.[a-z]+)$/, "m$1");
   return (
     <div className={styles.card}>
-      <Image src={project.image}
+      <Image
+        src={project.image}
         height={300}
         width={600}
         sizes="(max-width: 600px) 100vw, 600px"
         placeholder="blur"
         blurDataURL={lowResImageUrl}
-        alt={project.name} />
+        alt={project.name}
+      />
       <div className={styles.content}>
         <h3>{project.name}</h3>
         <p>{project.description}</p>
@@ -28,8 +30,7 @@ const ProjectCard = ({ project }) => {
               href={project.source_code}
               target="_blank"
               rel="noopener noreferrer"
-              className={styles.underline}
-            >
+              className={styles.underline}>
               Code
             </a>
           )}
@@ -38,8 +39,7 @@ const ProjectCard = ({ project }) => {
               href={project.demo}
               target="_blank"
               rel="noopener noreferrer"
-              className={styles.underline}
-            >
+              className={styles.underline}>
               Demo
             </a>
           )}
@@ -48,8 +48,7 @@ const ProjectCard = ({ project }) => {
               href={project.scholar}
               target="_blank"
               rel="noopener noreferrer"
-              className={styles.underline}
-            >
+              className={styles.underline}>
               Paper
             </a>
           )}
@@ -58,8 +57,7 @@ const ProjectCard = ({ project }) => {
               href={project.pypi}
               target="_blank"
               rel="noopener noreferrer"
-              className={styles.underline}
-            >
+              className={styles.underline}>
               PyPi
             </a>
           )}
