@@ -30,5 +30,12 @@
     "description": "Implementation of Sender-Receiver System in Verilog using UART Protocol and Display on Four 7-Segment LED Display",
     "tags": ["Verilog"],
     "source_code": "https://github.com/deepblue597/hw_1_uart"
+  },
+  {
+    "id": 5,
+    "name": "CrewMunity",
+    "image": "calendar.svg",
+    "description": "CrewMunity is a dynamic and user-friendly mobile application designed to bring people together through events and social activities",
+    "tags": ["dart" , "flutter"]
   }
 ]

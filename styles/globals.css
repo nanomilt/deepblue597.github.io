@@ -3,119 +3,133 @@
 *,
 *::before,
 *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 /* Tags */
 .react {
-  border: 0.1rem solid rgb(97, 218, 251);
+	border: 0.1rem solid rgb(97, 218, 251);
 }
 .react:hover {
-  background: rgba(97, 218, 251, 0.25);
+	background: rgba(97, 218, 251, 0.25);
 }
 
 .python {
-  border: 0.1rem solid rgb(131, 205, 41);
+	border: 0.1rem solid rgb(131, 205, 41);
 }
 .python:hover {
-  background: rgba(131, 205, 41, 0.25);
+	background: rgba(131, 205, 41, 0.25);
 }
 
 .mongodb {
-  border: 0.1rem solid rgb(67, 153, 52);
+	border: 0.1rem solid rgb(67, 153, 52);
 }
 .mongodb:hover {
-  background: rgba(67, 153, 52, 0.25);
+	background: rgba(67, 153, 52, 0.25);
 }
 
 .Angular {
-  border: 0.1rem solid rgb(118, 74, 188);
+	border: 0.1rem solid rgb(118, 74, 188);
 }
 .Angular:hover {
-  background: rgba(118, 74, 188, 0.25);
+	background: rgba(118, 74, 188, 0.25);
 }
 
 .Frontend {
-  border: 0.1rem solid rgb(82, 143, 240);
+	border: 0.1rem solid rgb(82, 143, 240);
 }
 .Frontend:hover {
-  background: rgba(82, 143, 240, 0.25);
+	background: rgba(82, 143, 240, 0.25);
 }
 
 .Docker {
-  border: 0.1rem solid rgb(25, 118, 210);
+	border: 0.1rem solid rgb(25, 118, 210);
 }
 .Docker:hover {
-  background: rgba(25, 118, 210, 0.25);
+	background: rgba(25, 118, 210, 0.25);
 }
 
 .Javascript {
-  border: 0.1rem solid rgb(0, 209, 178);
+	border: 0.1rem solid rgb(0, 209, 178);
 }
 .Javascript:hover {
-  background: rgb(0, 209, 178, 0.25);
+	background: rgb(0, 209, 178, 0.25);
 }
 
 .next {
-  border: 2px solid rgb(0, 112, 243);
+	border: 2px solid rgb(0, 112, 243);
 }
 .next:hover {
-  background: rgba(0, 112, 243, 0.25);
+	background: rgba(0, 112, 243, 0.25);
 }
 
 .tailwind {
-  border: 2px solid rgb(6, 182, 212);
+	border: 2px solid rgb(6, 182, 212);
 }
 .tailwind:hover {
-  background: rgba(6, 182, 212, 0.25);
+	background: rgba(6, 182, 212, 0.25);
 }
 
 .react-query {
-  border: 2px solid rgb(255, 65, 84);
+	border: 2px solid rgb(255, 65, 84);
 }
 .react-query:hover {
-  background: rgba(255, 65, 84, 0.25);
+	background: rgba(255, 65, 84, 0.25);
 }
 
 .css-modules {
-  border: 2px solid rgb(21, 114, 182);
+	border: 2px solid rgb(21, 114, 182);
 }
 .css-modules:hover {
-  background: rgba(21, 114, 182, 0.25);
+	background: rgba(21, 114, 182, 0.25);
 }
 .neural-networks {
-  border: 0.1rem solid rgb(0, 209, 178);
+	border: 0.1rem solid rgb(0, 209, 178);
 }
 .neural-networks:hover {
-  background: rgb(0, 209, 178, 0.25);
+	background: rgb(0, 209, 178, 0.25);
 }
 
 .Arduino {
-  border: 0.1rem solid rgb(67, 153, 52);
+	border: 0.1rem solid rgb(67, 153, 52);
 }
 .Arduino:hover {
-  background: rgba(67, 153, 52, 0.25);
+	background: rgba(67, 153, 52, 0.25);
 }
 
 .SQL {
-  border: 0.1rem solid rgb(25, 118, 210);
+	border: 0.1rem solid rgb(25, 118, 210);
 }
 .SQL:hover {
-  background: rgba(25, 118, 210, 0.25);
+	background: rgba(25, 118, 210, 0.25);
 }
 
 .databases {
-  border: 2px solid rgb(0, 112, 243);
+	border: 2px solid rgb(0, 112, 243);
 }
 .databases:hover {
-  background: rgba(0, 112, 243, 0.25);
+	background: rgba(0, 112, 243, 0.25);
 }
 
 .Verilog {
-  border: 2px solid rgb(255, 65, 84);
+	border: 2px solid rgb(255, 65, 84);
 }
 .Verilog:hover {
-  background: rgba(255, 65, 84, 0.25);
+	background: rgba(255, 65, 84, 0.25);
+}
+
+.dart {
+	border: 2px solid #ff4081;
+}
+.dart:hover {
+	background: rgba(255, 65, 84, 0.25);
+}
+
+.flutter {
+	border: 2px solid #007aff;
+}
+.flutter:hover {
+	background: rgba(0, 153, 136, 0.25);
 }
