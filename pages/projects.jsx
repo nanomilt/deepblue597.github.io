@@ -3,6 +3,7 @@ import { getMLProjects } from "./api/ml-projects";
 import { getWorkProjects } from "./api/work";
 import { getPyPiProjects } from "./api/pypi-projects";
 import { getMiscProjects } from "./api/misc-projects";
+import { getInternshipProjects } from "./api/internship-projects";
 import styles from "../styles/ProjectsPage.module.css";
 
 const ProjectsPage = ({
@@ -10,11 +11,22 @@ const ProjectsPage = ({
   work_projects,
   pypi_projects,
   misc_projects,
+  intern_projects,
 }) => {
   return (
     <>
       {/* <h3>Open Source Projects</h3>
       <br/> */}
+      <center>
+        <h4>Internship Projects</h4>
+      </center>
+      <hr />
+      <div className={styles.container}>
+        {intern_projects.map((project) => (
+          <ProjectCard key={project.id} project={project} />
+        ))}
+      </div>
+      <br />
       <center>
         <h4>University Projects</h4>
       </center>
@@ -59,6 +71,7 @@ export async function getStaticProps() {
   const work_projects = getWorkProjects();
   const pypi_projects = getPyPiProjects();
   const misc_projects = getMiscProjects();
+  const intern_projects = getInternshipProjects();
 
   return {
     props: {
@@ -67,6 +80,7 @@ export async function getStaticProps() {
       work_projects,
       // pypi_projects,
       // misc_projects,
+      intern_projects,
     },
   };
 }

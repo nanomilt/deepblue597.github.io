@@ -7,9 +7,9 @@ const ProjectCard = ({ project }) => {
     <div className={styles.card}>
       <Image
         src={project.image}
-        height={300}
-        width={600}
-        sizes="(max-width: 600px) 100vw, 600px"
+        height={100}
+        width={200}
+        sizes="(max-width: 200px) 100vw, 200px"
         placeholder="blur"
         blurDataURL={lowResImageUrl}
         alt={project.name}

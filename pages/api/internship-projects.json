@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "CrewMunity",
+    "image": "calendar.svg",
+    "description": "CrewMunity is a dynamic and user-friendly mobile application designed to bring people together through events and social activities",
+    "tags": ["dart", "flutter"]
+  },
+  {
+    "id": 2,
+    "name": "RemindMe",
+    "image": "calendar.svg",
+    "description": "Created a Chrome extension using the Plasmo framework (React) to connect with Firebase and sync information with a mobile app.",
+    "tags": ["React", "HTML", "CSS"]
+  },
+  {
+    "id": 3,
+    "name": "Inventory App",
+    "image": "powerApps.png",
+    "description": "Create a customized and efficient inventory app for internal business usage in Microsoft PowerApps",
+    "tags": ["PowerApps"]
+  }
+]
