@@ -1,0 +1,26 @@
+[
+  {
+    "name": "John Doe",
+    "role": "Software Engineer",
+    "image": "https://via.placeholder.com/56",
+    "testimonial": "This platform is absolutely fantastic! It has helped me streamline my workflow like never before."
+  },
+  {
+    "name": "Jane Smith",
+    "role": "Product Manager",
+    "image": "https://via.placeholder.com/56",
+    "testimonial": "The features provided by this tool have drastically improved our team’s productivity."
+  },
+  {
+    "name": "David Wilson",
+    "role": "Designer",
+    "image": "https://via.placeholder.com/56",
+    "testimonial": "As a designer, I love the flexibility and ease of use. It's perfect for our needs."
+  },
+  {
+    "name": "David Wilson",
+    "role": "Designer",
+    "image": "https://via.placeholder.com/56",
+    "testimonial": "As a designer, I love the flexibility and ease of use. It's perfect for our needs."
+  }
+]
