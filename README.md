@@ -2,8 +2,6 @@
 
 A Visual Studio Code themed developer portfolio website built with Next.js and deployed on Vercel.
 
-
-
 ## Environment Variables
 
 For fetching your articles from dev.to, create an `.env.local` file inside the project directory. Check the `.env.local.example` file for more information.
@@ -11,6 +9,7 @@ For fetching your articles from dev.to, create an `.env.local` file inside the p
 ## Running Development Server
 
 ```bash
+npm install
 npm run dev
 # or
 yarn dev

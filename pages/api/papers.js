@@ -1,4 +1,4 @@
-import data from './published-papers.json';
+import data from "./published-papers.json";
 
 export const getPapers = () => {
   return data;

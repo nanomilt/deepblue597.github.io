@@ -1,5 +1,5 @@
-import Tab from './Tab';
-import styles from '../styles/Tabsbar.module.css';
+import Tab from "./Tab";
+import styles from "../styles/Tabsbar.module.css";
 
 const Tabsbar = () => {
   return (
@@ -8,7 +8,7 @@ const Tabsbar = () => {
       <Tab icon="/html_icon.svg" filename="resume.html" path="/resume" />
       <Tab icon="/yml_icon.svg" filename="contact.yml" path="/contact" />
       <Tab icon="/py_icon.svg" filename="projects.py" path="/projects" />
-      <Tab icon="/json_icon.svg" filename="papers.json" path="/papers" />
+      <Tab icon="/json_icon.svg" filename="thesis.json" path="/papers" />
       <Tab icon="/markdown_icon.svg" filename="github.md" path="/github" />
     </div>
   );

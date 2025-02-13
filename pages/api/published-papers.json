@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "id": 1,
+    "title": "Design and implementation of a textual domain language to produce machine learning applications on data streams",
+    "tools": "Kafka, Quix streams, River, Text-X, Docker ",
+    "link": "https://github.com/deepblue597/thesis"
+  }
+]
