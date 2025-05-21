@@ -4,7 +4,7 @@ export const getPyPiProjects = () => {
   return data;
 };
 
-export default (req, res) => {
+export default (_res) => {
   const projects = getPyPiProjects();
-  res.json(projects);
+  _res.json(projects);
 };
