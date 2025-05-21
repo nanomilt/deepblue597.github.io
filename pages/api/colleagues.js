@@ -1,10 +1,10 @@
-import data from "./colleagues.json";
+import data from './colleagues.json';
 
 export const getIColleagues = () => {
   return data;
 };
 
-export default (req, res) => {
+export default (_) => {
   const projects = getIColleagues();
-  res.json(projects);
+  return projects;
 };

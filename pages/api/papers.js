@@ -1,10 +1,10 @@
-import data from "./published-papers.json";
+import data from './published-papers.json';
 
 export const getPapers = () => {
   return data;
 };
 
-export default (req, res) => {
+export default (_res) => {
   const projects = getPapers();
-  res.json(projects);
+  _res.json(projects);
 };
