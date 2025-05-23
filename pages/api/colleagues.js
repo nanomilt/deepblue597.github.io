@@ -1,4 +1,4 @@
-import data from "./colleagues.json";
+import data from './colleagues.json';
 
 export const getIColleagues = () => {
   return data;
