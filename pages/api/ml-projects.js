@@ -6,5 +6,5 @@ export const getMLProjects = () => {
 
 export default (req, res) => {
   const projects = getMLProjects();
-  res.json(projects);
+  res.status(200).json(projects);
 };
