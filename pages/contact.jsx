@@ -8,8 +8,8 @@ const ContactPage = () => {
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
 
-  // const submitForm = async (e) => {
-  //   e.preventDefault();
+  // const submitForm = async (_) => {
+  //   _.preventDefault();
   //   console.log(process.env.NEXT_PUBLIC_API_URL);
   //   const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/contact`, {
   //     method: 'POST',

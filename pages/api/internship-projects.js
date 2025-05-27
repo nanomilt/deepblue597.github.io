@@ -1,10 +1,10 @@
-import data from "./internship-projects.json";
+import data from './internship-projects.json';
 
 export const getInternshipProjects = () => {
   return data;
 };
 
-export default (req, res) => {
+export default (_res, _req) => {
   const projects = getInternshipProjects();
-  res.json(projects);
+  _res.json(projects);
 };
