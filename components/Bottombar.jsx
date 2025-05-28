@@ -3,8 +3,8 @@ import WarningIcon from "./icons/WarningIcon";
 import BellIcon from "./icons/BellIcon";
 import GithubIcon from "./icons/GithubIcon";
 import LinkedinIcon from "./icons/LinkedinIcon";
-import ScholarIcon from "./icons/ScholarIcon";
-import SourceControlIcon from "./icons/SourceControlIcon";
+// import ScholarIcon from "./icons/ScholarIcon";
+// import SourceControlIcon from "./icons/SourceControlIcon";
 import styles from "../styles/Bottombar.module.css";
 
 const Bottombar = () => {
@@ -16,7 +16,7 @@ const Bottombar = () => {
           target="_blank"
           rel="noreferrer noopener"
           className={styles.section}>
-          <SourceControlIcon className={styles.icon} />
+          {/* <SourceControlIcon className={styles.icon} /> */}
           <p>main</p>
         </a>
         <div className={styles.section}>
@@ -48,14 +48,6 @@ const Bottombar = () => {
             <p>Scholar</p>
           </div>
         </a> */}
-        {/* <div className={styles.section}>
-          <NextjsIcon className={styles.icon} />
-          <p>Powered by Next.js</p>
-        </div> */}
-        {/* <div className={styles.section}>
-          <CheckIcon className={styles.icon} />
-          <p>Prettier</p>
-        </div> */}
         <div className={styles.section}>
           <BellIcon />
         </div>

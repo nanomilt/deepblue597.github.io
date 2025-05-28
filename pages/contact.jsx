@@ -11,11 +11,11 @@ const ContactPage = () => {
   // const submitForm = async (e) => {
   //   e.preventDefault();
   //   console.log(process.env.NEXT_PUBLIC_API_URL);
-  //   const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/contact`, {
+  //   const _ = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/contact`, {
   //     method: 'POST',
   //     body: JSON.stringify({ name, email, subject, message }),
   //   });
-  //   if (res.ok) {
+  //   if (_.ok) {
   //     alert('Your response has been received!');
   //     setName('');
   //     setEmail('');
