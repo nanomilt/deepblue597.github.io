@@ -1,16 +1,16 @@
 import ProjectCard from "../components/ProjectCard";
 import { getMLProjects } from "./api/ml-projects";
 import { getWorkProjects } from "./api/work";
-import { getPyPiProjects } from "./api/pypi-projects";
-import { getMiscProjects } from "./api/misc-projects";
+// import { getPyPiProjects } from "./api/pypi-projects";
+// import { getMiscProjects } from "./api/misc-projects";
 import { getInternshipProjects } from "./api/internship-projects";
 import styles from "../styles/ProjectsPage.module.css";
 
 const ProjectsPage = ({
   ml_projects,
   work_projects,
-  pypi_projects,
-  misc_projects,
+  // pypi_projects,
+  // misc_projects,
   intern_projects,
 }) => {
   return (
@@ -69,8 +69,8 @@ const ProjectsPage = ({
 export async function getStaticProps() {
   const ml_projects = getMLProjects();
   const work_projects = getWorkProjects();
-  const pypi_projects = getPyPiProjects();
-  const misc_projects = getMiscProjects();
+  // const pypi_projects = getPyPiProjects();
+  // const misc_projects = getMiscProjects();
   const intern_projects = getInternshipProjects();
 
   return {

@@ -8,8 +8,8 @@ const ContactPage = () => {
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
 
-  // const submitForm = async (e) => {
-  //   e.preventDefault();
+  // const submitForm = async (_) => {
+  //   _.preventDefault();
   //   console.log(process.env.NEXT_PUBLIC_API_URL);
   //   const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/contact`, {
   //     method: 'POST',
@@ -43,7 +43,7 @@ const ContactPage = () => {
                 name="name"
                 id="name"
                 value={name}
-                onChange={(e) => setName(e.target.value)}
+                onChange={(_) => setName(_.target.value)}
                 required
               />
             </div>
@@ -54,7 +54,7 @@ const ContactPage = () => {
                 name="email"
                 id="email"
                 value={email}
-                onChange={(e) => setEmail(e.target.value)}
+                onChange={(_) => setEmail(_.target.value)}
                 required
               />
             </div>
@@ -66,7 +66,7 @@ const ContactPage = () => {
               name="subject"
               id="subject"
               value={subject}
-              onChange={(e) => setSubject(e.target.value)}
+              onChange={(_) => setSubject(_.target.value)}
               required
             />
           </div>
@@ -77,7 +77,7 @@ const ContactPage = () => {
               id="message"
               rows="5"
               value={message}
-              onChange={(e) => setMessage(e.target.value)}
+              onChange={(_) => setMessage(_.target.value)}
               required
             ></textarea>
           </div>
