@@ -1,10 +1,10 @@
-import data from "./work.json";
+import data from './work.json';
 
 export const getWorkProjects = () => {
   return data;
 };
 
-export default (req, res) => {
+export default (_res) => {
   const projects = getWorkProjects();
-  res.json(projects);
+  _res.json(projects);
 };

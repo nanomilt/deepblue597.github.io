@@ -4,7 +4,7 @@ export const getMLProjects = () => {
   return data;
 };
 
-export default (req, res) => {
+export default (_, res) => {
   const projects = getMLProjects();
   res.json(projects);
 };
