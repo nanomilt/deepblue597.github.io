@@ -1,10 +1,12 @@
-import data from "./colleagues.json";
+// FIXED_CODE
+
+import data from './colleagues.json';
 
 export const getIColleagues = () => {
   return data;
 };
 
-export default (req, res) => {
+export default (_) => {
   const projects = getIColleagues();
-  res.json(projects);
+  return projects;
 };
